@@ -48,7 +48,7 @@ int main()
                 printf("Grade: F (Fail)\n");
                 break;
 
-            default:   // 0–49
+            default:
                 printf("Grade: F (Fail)\n");
         }
     }
