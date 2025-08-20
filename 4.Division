@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+int main() {
+    float num1, num2, dvd;
+    printf("Enter first number: ");
+    scanf("%f", &num1);
+    printf("Enter second number: ");
+    scanf("%f", &num2);
+    dvd = num1/num2;
+    printf("Division = %f\n", dvd);
+    return 0;
+}
